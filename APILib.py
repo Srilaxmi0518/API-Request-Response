@@ -16,6 +16,5 @@ def get_oauth_token():
     }
     response = requests.post(url, data=payload, proxies={"http": None, "https": None}, verify=False)
     response.raise_for_status()
-    print(f'The Tokes are {response.json()}')
-    logging.info(f'The Tokes are {response.json()}')
-    return response.json()["access_token"]
+    logging.info(f'Request Payload: {payload} , \n Tokes are {response.json()}')
+    return response.json()["data"]["access_token"]
