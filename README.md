@@ -18,11 +18,11 @@ Implement Robot Framework in Python with the following capabilities to automate 
 
 ## How to Use
 1. Install dependencies: `pip install requests`, 'pip install robotframework', 'pip install robotframework-requests'
-2. Run: `robot .\eSIM.robot`
+2. Run: `robot .\eSIM.robot` or  'python -m robot .\eSIM.robot'
 3. Verify console output for test success
 
 ## Author
-Srilaxmi Buutkuri
+Srilaxmi Butukuri
 
 ## Test Suite
 Partner-API-Testing\eSIM.robot 
